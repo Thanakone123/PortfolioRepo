@@ -1,15 +1,18 @@
-<script setup>
-
-</script>
-
 <template>
-    <div class="row">
-      <div lang="la" class="col-6">ສະບາຍດີ</div>
-      <div class="col-6">Hello</div>
-    </div>
-    <span class="material-symbols-outlined">key</span>
+  <div>
+    <PortforioContainer />
+    <ButtonToTop />
+  </div>
 </template>
 
-<style scoped>
-
-</style>
+<script>
+import PortforioContainer from './components/PortfolioContainer.vue'
+import ButtonToTop from './components/HelperComponent/ButtonToTop.vue'
+export default {
+  name: 'App',
+  components: {
+    PortforioContainer,
+    ButtonToTop
+  }
+}
+</script>
