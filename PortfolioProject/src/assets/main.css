@@ -8,6 +8,30 @@
   font-weight: normal;
 }
 
+@font-face {
+  font-family: 'Noto Sans Lao';
+  src: url('./fonts/Noto_Sans_Lao/static/NotoSansLao-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:lang(la) {
+  font-family: 'Noto Sans Lao', sans-serif;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 a,
 .green {
   text-decoration: none;
