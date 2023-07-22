@@ -1,8 +1,6 @@
 <template>
-    <v-btn @click="scrollToTop" id="scrollToTopButton">
-      <span class="material-symbols-outlined">
-        stat_1
-      </span>
+    <v-btn @click="scrollToTop" id="scrollToTopButton" class="p-0">
+      <img src="../../assets/icons/mafumafu-cute.gif" width="70" height="70">
     </v-btn>
 </template>
 
@@ -25,8 +23,5 @@ export default {
   right: 20px;
   padding: 10px;
   cursor: pointer;
-  background-color: #FF8C00;
-  color: white;
-  border-radius: 25px;
 }
 </style>
