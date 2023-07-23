@@ -5,5 +5,6 @@ import Introduction from './Sections/Introduction.vue'
 <template>
     <div class="px-5 py-5">
         <Introduction />
+        
     </div>
 </template>
